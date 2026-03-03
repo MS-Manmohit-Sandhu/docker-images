@@ -36,7 +36,7 @@ image includes a Python environment with essential tools for Kubernetes manageme
 To pull the image from Docker Hub, use the following command:
 
 ```sh
-docker pull g1g1/py-kube
+docker pull MS-Manmohit-Sandhu/py-kube
 ```
 
 ### Running the Container
@@ -44,13 +44,13 @@ docker pull g1g1/py-kube
 This will create a pod called `troubleshooter` and give you a shell with all the tools.
 
 ```sh
-kubectl run --rm -it --image g1g1/py-kube troubleshooter
+kubectl run --rm -it --image MS-Manmohit-Sandhu/py-kube troubleshooter
 ```
 
 For local use:
 
 ```sh
-docker run --rm -it g1g1/py-kube
+docker run --rm -it MS-Manmohit-Sandhu/py-kube
 ```
 
 ## Building the Image (for Contributors)
